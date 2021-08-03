@@ -1,0 +1,6 @@
+/index.html
+/contact.html
+/socials.html
+/assets/*
+/scripts/*
+/css/*

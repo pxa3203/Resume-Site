@@ -86,6 +86,10 @@ body {
     text-align: center;
 }
 
+.contact-display select {
+    border-radius: 25px;
+}
+
 .US-Contact,
 .AU-Contact {
     display: none;
@@ -98,6 +102,5 @@ table {
 
 table th,
 table td {
-    padding: 2%;
-    width: 35%;
+    width: 20%;
 }
