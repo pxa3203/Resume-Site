@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    color: #FFF;
+}
+
+.left-col {
+    min-height: 100vh;
+    width: 30%;
+    float: left;
+    background-color: #F76C6C;
+    text-align: center;
+    overflow: hidden;
+}
+
+.right-col {
+    height: 100vh;
+    width: 70%;
+    float: left;
+    background-color: #3778C2;
+    overflow-y: auto;
+}
+
+.about-me,
+.education,
+.experience,
+.skills {
+    color: #000000;
+    margin: 2%;
+    padding: 2%;
+    height: auto;
+    background-color: gainsboro;
+}
+
+.about-me h1,
+.education h1,
+.experience h1,
+.skills h1 {
+    text-align: center;
+}
+
+.name {
+    margin-top: 5%;
+}
+
+.headshot-photo {
+    margin-top: 10%;
+}
+
+.nav {
+    margin-top: 12.5%;
+}
+
+.sites {
+    margin-top: 25%;
+}
+
+.sites a,
+.nav a {
+    text-decoration: none;
+    color: #FFF;
+    transition: all 0.2s ease-in-out
+}
+
+.sites a:hover,
+.nav a:hover {
+    color: #3778C2;
+    text-decoration: none;
+}
+
+.headshot-photo img {
+    max-width: 40%;
+    height: 55%;
+}
+
+.statement-col {
+    width: 50%;
+    height: 500px;
+}
