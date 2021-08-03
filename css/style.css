@@ -5,7 +5,7 @@ body {
 
 .left-col {
     min-height: 100vh;
-    width: 30%;
+    width: 25%;
     float: left;
     background-color: #F76C6C;
     text-align: center;
@@ -14,7 +14,7 @@ body {
 
 .right-col {
     height: 100vh;
-    width: 70%;
+    width: 75%;
     float: left;
     background-color: #3778C2;
     overflow-y: auto;
@@ -23,7 +23,8 @@ body {
 .about-me,
 .education,
 .experience,
-.skills {
+.skills,
+.contact {
     color: #000000;
     margin: 2%;
     padding: 2%;
@@ -34,20 +35,21 @@ body {
 .about-me h1,
 .education h1,
 .experience h1,
-.skills h1 {
+.skills h1,
+.contact h1 {
     text-align: center;
 }
 
 .name {
-    margin-top: 5%;
-}
-
-.headshot-photo {
     margin-top: 10%;
 }
 
-.nav {
+.headshot-photo {
     margin-top: 12.5%;
+}
+
+.nav {
+    margin-top: 18.5%;
 }
 
 .sites {
@@ -68,11 +70,34 @@ body {
 }
 
 .headshot-photo img {
-    max-width: 40%;
-    height: 55%;
+    max-width: 50%;
+    height: 65%;
 }
 
 .statement-col {
     width: 50%;
     height: 500px;
+}
+
+.contact-display {
+    margin-top: 3%;
+    margin-left: 12.5%;
+    width: 75%;
+    text-align: center;
+}
+
+.US-Contact,
+.AU-Contact {
+    display: none;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+table th,
+table td {
+    padding: 2%;
+    width: 35%;
 }
