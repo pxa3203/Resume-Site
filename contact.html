@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrick Armstrong</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/scripts.js"></script>
 
 </head>
 
 <body>
-    <div class="left-col">
+    <div class="left-col" id="left-col">
+        <a href="javascript:void(0);" class="icon" id="left-icon" onclick="iconLeft()">
+            <i class="fa fa-bars"></i></a>
         <div class="name">
             <h1>Patrick Armstrong</h1>
         </div>
@@ -30,8 +33,10 @@
                 <a href="assets/resume/Resume (IT).docx" download>Resume</a></h2>
         </div>
     </div>
-    <div class="right-col">
+    <div class="right-col" id="right-col">
         <div class="contact">
+            <a href="javascript:void(0);" class="icon" id="right-icon" onclick="iconRight()">
+                <i class="fa fa-bars"></i></a>
             <h1>Please select which contact information you would like to view:</h1>
             <div class="contact-display">
                 <select name="contactInfo" id="contactInfo" onchange="showContact()">

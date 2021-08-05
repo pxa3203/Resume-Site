@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrick Armstrong</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/scripts.js"></script>
 
 </head>
 
 <body>
-    <div class="left-col">
+    <div class="left-col" id="left-col">
+        <a href="javascript:void(0);" class="icon" id="left-icon" onclick="iconLeft()">
+            <i class="fa fa-bars"></i></a>
         <div class="name">
             <h1>Patrick Armstrong</h1>
         </div>
@@ -20,9 +23,9 @@
             <img src="assets/images/headshot.jpg">
         </div>
         <div class="nav">
-            <h2><a href="#anchor-home">Home</a></h2>
-            <h2><a href="#anchor-education">Education</a></h2>
-            <h2><a href="#anchor-experience">Experience</a></h2>
+            <h2><a href="index.html#anchor-home">Home</a></h2>
+            <h2><a href="index.html#anchor-education">Education</a></h2>
+            <h2><a href="index.html#anchor-experience">Experience</a></h2>
             <h2><a href="contact.html">Contact</a></h2>
         </div>
         <div class="sites">
@@ -30,8 +33,10 @@
                 <a href="assets/resume/Resume (IT).docx" download>Resume</a></h2>
         </div>
     </div>
-    <div class="right-col">
+    <div class="right-col" id="right-col">
         <div class="about-me " id="anchor-home">
+            <a href="javascript:void(0);" class="icon" id="right-icon" onclick="iconRight()">
+                <i class="fa fa-bars"></i></a>
             <h1>About Me!</h1>
             <p>First and foremost, I live and breathe tech. Ever since I was young my mind has been fascinated with all shapes and forms of technology from hardware to software and anything in between. I remember writing my first “Hello World” print line
                 statement in Java and being amazed that it was something that I, myself created. It led me down the rabbit hole that is Information Technology and introduced me to complex issues solved by technology. I firmly believe that the power of

@@ -41,7 +41,7 @@ body {
 }
 
 .name {
-    margin-top: 10%;
+    margin-top: 13%;
 }
 
 .headshot-photo {
@@ -103,4 +103,24 @@ table {
 table th,
 table td {
     width: 20%;
+}
+
+.left-col .icon {
+    display: none;
+}
+
+.right-col .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .left-col {
+        display: none;
+    }
+    .right-col {
+        width: 100%;
+    }
+    .right-col .icon {
+        display: inline;
+    }
 }
