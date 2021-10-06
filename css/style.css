@@ -129,7 +129,7 @@ table td {
     }
     .headshot-photo img {
         max-width: 62%;
-        height: 77%;
+        max-height: 77%;
     }
 }
 
