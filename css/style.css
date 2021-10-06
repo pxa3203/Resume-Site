@@ -30,6 +30,7 @@ body {
     padding: 2%;
     height: auto;
     background-color: gainsboro;
+    font-family: Helvetica;
 }
 
 .about-me h1,
@@ -122,5 +123,9 @@ table td {
     }
     .right-col .icon {
         display: inline;
+    }
+    .headshot-photo img {
+        max-width: 62%;
+        height: 77%;
     }
 }
