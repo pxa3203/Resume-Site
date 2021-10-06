@@ -54,7 +54,7 @@ body {
 }
 
 .sites {
-    margin-top: 14%;
+    margin-top: 25%;
 }
 
 .sites a,
@@ -114,15 +114,34 @@ table td {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px),
+(max-height: 1081px) {
     .left-col {
         display: none;
+        height: 100%;
+        overflow: hidden;
     }
     .right-col {
         width: 100%;
     }
     .right-col .icon {
         display: inline;
+    }
+    .headshot-photo img {
+        max-width: 62%;
+        height: 77%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .left-col {
+        display: inline;
+    }
+    .right-col {
+        width: 70%;
+    }
+    .right-col .icon {
+        display: none;
     }
     .headshot-photo img {
         max-width: 62%;
